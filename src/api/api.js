@@ -8,16 +8,17 @@ const Apifetch = () => {
     }, []);
 
     async function getUsers() {
-        const response = await fetch('http://localhost:3000/testAPI');
-        // const response = await fetch('https://jsonplaceholder.typicode.com/users');
+        const response = await fetch('http://localhost:5000/api/v1/users');
+        console.log('respose', response)
         const users = await response.json();
         setUsers(users);
     }
 
     return (
         <ul>
+          <h4>Current Registered Users</h4>
           {users.map(user => (
-            <li>{user.name}</li>
+            <li key={user.name}>ID: {user.id}  Name: {user.name}  {user.email}  {user.phone}</li>
           ))}
         </ul>
       );
