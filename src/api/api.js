@@ -16,8 +16,9 @@ const Apifetch = () => {
 
     return (
         <ul>
+          <h4>Current Registered Users</h4>
           {users.map(user => (
-            <li>{user.name}</li>
+            <li key={user.name}>Name: {user.name}{" "}{user.email}{" "}{user.phone}</li>
           ))}
         </ul>
       );
