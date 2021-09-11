@@ -1,10 +1,14 @@
 import "./Header.css";
+import Navigation from "../Nav/Nav";
+
 
 const Header = () => {
   return (
-    <h1 className="header-styles">
-      THIS IS THE HOME PAGE CONTAINER
-    </h1>
+    <div>
+      BXXXXX PXXXX CORP
+ <Navigation></Navigation>
+
+    </div>
   )
 }
 
