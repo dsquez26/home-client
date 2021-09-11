@@ -1,16 +1,15 @@
 import './App.css';
-import Login from './Components/Login/Login';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Header from './Components/Header/Header';
-import ApiFetch from './api/api';
-import Register from './Components/Register/Register';
+
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Login></Login>
-      <ApiFetch />
-      <Register />
+      <Header />
+      
+
     </div>
 
   );
