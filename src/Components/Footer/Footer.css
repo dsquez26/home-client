@@ -1,0 +1,17 @@
+.center-top-col {
+    border: 2px solid green
+}
+
+.center-top-row {
+    border: 2px solid red
+}
+
+.footer-cont-1 {
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    background-color: rgb(187, 55, 62);
+}
+.footer-cont-2 {
+    height: 100%;
+}

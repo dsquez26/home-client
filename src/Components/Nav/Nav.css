@@ -1,0 +1,10 @@
+.nav-ul-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;    
+    list-style-type: none;
+}
+
+.router-box {
+    border: 2px solid green;
+}
