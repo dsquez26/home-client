@@ -1,0 +1,27 @@
+.card-1 {
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  overflow:hidden;
+}
+
+
+.card-icon-1 {
+width: 30%;
+height: 100%;
+background-color: aliceblue;
+padding: 5px;
+font-size: medium;
+font-weight: bold;
+}
+      
+.card-content-1 {
+width: 70%;
+height: 100%;
+background-color: aqua;
+padding: 5px;
+font-size: medium;
+font-weight: 400;
+}

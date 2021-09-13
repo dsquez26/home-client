@@ -1,10 +1,10 @@
-.nav-ul-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;    
-    list-style-type: none;
+.nav-cont-1 {
+  border: 2px solid green;
 }
 
-.router-box {
-    border: 2px solid green;
+.nav-ul-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  list-style-type: none;
 }

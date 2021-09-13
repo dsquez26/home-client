@@ -1,11 +1,7 @@
-import "./ServicesPage.css"
+import "./ServicesPage.css";
 
 const ServicesPage = () => {
-  return (
-    <div>
-      Services Page
-    </div>
-  )
-}
+  return <div>Services Page</div>;
+};
 
-export default ServicesPage
+export default ServicesPage;
