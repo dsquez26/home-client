@@ -1,0 +1,8 @@
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-evenly;
+    border: 2px solid red;
+    background-color: darkgrey;
+  }

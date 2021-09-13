@@ -1,11 +1,17 @@
+.header-main-cont {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
 .center-top-col {
-    border: 2px solid green
+  border: 2px solid green;
 }
 
 .center-top-row {
-    border: 2px solid red
-}
-
-.header-main-cont {
-    height: 120px
+  border: 2px solid red;
 }

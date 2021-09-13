@@ -1,11 +1,7 @@
-import "./CareersPage.css"
+import "./CareersPage.css";
 
 const CareersPage = () => {
-  return (
-    <div>
-      Careers Page
-    </div>
-  )
-}
+  return <div>Careers Page</div>;
+};
 
-export default CareersPage
+export default CareersPage;
