@@ -1,27 +1,43 @@
-import { Nav } from "react-bootstrap"
+import { NavLink } from 'react-router-dom'
+
+import "./Nav.css"
 
 
-function Navigation() {
+function Navigation () {
     return (
-        <div>
-            <Nav className="justify-content-end" activeKey="/home">
-                <Nav.Item>
-                    <Nav.Link href="/home">Home</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-1">Services</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-2">Resources</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-3">Careers</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-4">Contact Us</Nav.Link>
-                </Nav.Item>
-            </Nav>
-        </div>
+        
+            <div className="router-box">
+                <nav>
+                    <ul className='nav-ul-1'>
+                        <li>
+                            <NavLink to="/home">
+                                <input type="button" value='Home' />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/services">
+                                <input type="button" value='Services' />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/careers">
+                                <input type="button" value='Careers' />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/login">
+                                <input type="button" value='Login' />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/about">
+                                <input type="button" value='About Us' />
+                            </NavLink>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+      
     )
 }
 
