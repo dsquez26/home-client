@@ -1,0 +1,5 @@
+.f-section-2-main {
+    display:    grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: darkkhaki;
+}
