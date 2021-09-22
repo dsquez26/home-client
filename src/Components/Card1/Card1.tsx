@@ -1,11 +1,9 @@
+import { CardProps1 } from "../../shared/interfaces"
+
 import "./Card1.css"
 
-interface CardProps {
-  icon?: string,                
-  content: string
-}
 
-const Card1 = ({icon, content}: CardProps) => {
+const Card1 = ({icon, content}: CardProps1) => {
   
   return (
     <div className="card-1">

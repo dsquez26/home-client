@@ -1,11 +1,7 @@
 import { useForm } from "react-hook-form";
+import { formSection1Types } from "../../shared/interfaces";
 
 import "./FormSection1.css";
-
-interface formSection1Types {
-  label1?: string;
-  label2?: string;
-}
 
 const FormSection1 = (props: formSection1Types) => {
   const { register } = useForm();

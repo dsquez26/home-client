@@ -1,10 +1,8 @@
 import { useForm } from "react-hook-form";
+import { formSection3T } from "../../shared/interfaces";
+
 import "./FormSection3.css";
 
-interface formSection3T {
-  label1: string;
-  title: string; //why did i have to do this?? dont leave...fix later
-}
 
 const FormSection3 = (props: formSection3T) => {
   const { register } = useForm<formSection3T>();
