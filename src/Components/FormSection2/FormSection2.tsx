@@ -1,11 +1,8 @@
 import { useForm } from "react-hook-form";
+import { formSection2Types } from "../../shared/interfaces";
 
 import "./FormSection2.css";
 
-interface formSection2Types {
-  label1?: string;
-  label2?: string;
-}
 
 const FormSection2 = (props: formSection2Types) => {
   const { register } = useForm();
@@ -31,7 +28,7 @@ const FormSection2 = (props: formSection2Types) => {
             {...register("email", {
               required: true,
               pattern:
-                /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
             })}
           />
         </div>

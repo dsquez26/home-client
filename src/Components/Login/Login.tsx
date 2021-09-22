@@ -1,10 +1,8 @@
 import { useForm } from 'react-hook-form';
+import { FormData } from '../../shared/interfaces';
+
 import "./Login.css"
 
-type FormData = {
-  userName: string;
-  password: number;
-}
 
 const Login = () => {
   const { register, handleSubmit, formState: { errors } } = useForm<FormData>();

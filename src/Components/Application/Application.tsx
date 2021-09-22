@@ -1,20 +1,13 @@
 import { useForm } from "react-hook-form";
 import FormSection1 from "../FormSection1/FormSection1";
 import FormSection2 from "../FormSection2/FormSection2";
+import { ApplicationFormData } from "../../shared/interfaces";
 
 import "./Application.css";
 
-interface ApplicationFormData {
-  firstName: String;
-  lastName: String;
-  email: String;
-  phoneNumber: Number;
-  title: Number;
-}
 
 const Application = () => {
   const {
-    register,
     handleSubmit,
     formState: { errors },
   } = useForm<ApplicationFormData>();
