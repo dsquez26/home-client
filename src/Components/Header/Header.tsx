@@ -4,8 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Header.css";
 
 const Header = () => {
+
   return (
-    <Container className='header-main-cont'fluid>
+    <div className='header-main-cont'>
       Header Container
       <Container>
         <Row className="center-top-row">
@@ -19,7 +20,7 @@ const Header = () => {
         </Row>
       </Container>
       <Navigation />
-    </Container>
+    </div>
   )
 }
 
